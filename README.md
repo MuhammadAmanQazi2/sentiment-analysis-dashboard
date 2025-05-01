@@ -43,4 +43,13 @@ Businesses often struggle to manually analyze large volumes of customer feedback
 ```bash
 pip install -r requirements.txt
 streamlit run sentiment_analysis_dashboard.py
+ sentiment-analysis-dashboard/
+
+Project Structure
+├── sentiment_analysis_dashboard.py
+├── synthetic_product_reviews.csv
+├── sentiment_model.pkl
+├── tfidf_vectorizer.pkl
+├── requirements.txt
+└── README.md
 
