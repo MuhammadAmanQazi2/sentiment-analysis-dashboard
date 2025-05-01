@@ -53,3 +53,9 @@ Project Structure
 ├── requirements.txt
 └── README.md
 
+🙋‍♂️ Author
+Muhammad Aman
+Third-Year Data Science Student
+NED University of Engineering & Technology
+
+
