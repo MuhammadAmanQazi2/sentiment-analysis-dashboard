@@ -1,4 +1,4 @@
-# sentiment_analysis_dashboard.py
+
 import pandas as pd
 import streamlit as st
 from sklearn.model_selection import train_test_split
@@ -10,18 +10,17 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from datetime import datetime
 
-# Set page config
+
 st.set_page_config(
     page_title="Product Sentiment Analysis",
     page_icon="📊",
     layout="wide"
 )
 
-# Title
+
 st.title("📊 Product Review Sentiment Analysis Dashboard")
 st.markdown("Analyzing customer sentiment using Logistic Regression")
 
-# Step 1: Data Loading and Preprocessing
 @st.cache_data
 def load_and_preprocess_data():
     # Load dataset
@@ -41,7 +40,7 @@ def load_and_preprocess_data():
 
 df = load_and_preprocess_data()
 
-# Step 2: Model Training
+
 @st.cache_resource
 def train_and_save_model():
     try:
@@ -76,8 +75,7 @@ def train_and_save_model():
 
 model, tfidf = train_and_save_model()
 
-# Dashboard UI
-# Sidebar for user inputs
+
 with st.sidebar:
     st.header("Controls")
     show_raw_data = st.checkbox("Show raw data", value=False)
@@ -100,7 +98,7 @@ filtered_df = df[
     (df['Category'].isin(selected_category))
 ]
 
-# Main dashboard layout
+
 tab1, tab2, tab3, tab4 = st.tabs(["📈 Overview", "⏳ Timeline", "🔍 Explore", "🤖 Predict"])
 
 with tab1:
@@ -128,7 +126,7 @@ with tab2:
     # Time series analysis
     st.subheader("Reviews Over Time")
     
-    # Resample by time frequency
+    
     time_freq = st.selectbox(
         "Time Frequency",
         options=['Weekly', 'Monthly', 'Quarterly'],
@@ -141,20 +139,17 @@ with tab2:
         'Rating': 'mean',
         'Sentiment': lambda x: (x == 'Positive').mean()
     }).rename(columns={'Product Name': 'Review Count'})
-    
-    # Add smoothing
+
     ts_df['Positive_Ratio_Smoothed'] = ts_df['Sentiment'].rolling(
         window=3, min_periods=1, center=True
     ).mean()
-    
-    # Plot review count
+
     fig1, ax1 = plt.subplots(figsize=(12, 4))
     ax1.bar(ts_df.index, ts_df['Review Count'], width=20, alpha=0.6)
     ax1.set_title(f"Number of Reviews ({time_freq})")
     ax1.set_ylabel("Review Count")
     st.pyplot(fig1)
-    
-    # Plot sentiment trend
+
     fig2, ax2 = plt.subplots(figsize=(12, 4))
     ax2.plot(ts_df.index, ts_df['Positive_Ratio_Smoothed'], 
             color='green', marker='o', linewidth=2)
@@ -168,7 +163,7 @@ with tab2:
         st.warning("⚠ Some time periods have very few reviews (<3). Consider using Quarterly view for more stable trends.")
 
 with tab3:
-    # Word clouds
+
     st.subheader("Word Clouds")
     col1, col2 = st.columns(2)
     
@@ -190,7 +185,7 @@ with tab3:
         plt.axis('off')
         st.pyplot(plt)
     
-    # Price vs Rating
+  
     st.subheader("Price vs Rating")
     fig, ax = plt.subplots()
     sns.scatterplot(data=df, x='Price', y='Rating', hue='Sentiment', 
@@ -198,7 +193,7 @@ with tab3:
     st.pyplot(fig)
 
 with tab4:
-    # Prediction interface
+  
     st.subheader("Live Sentiment Prediction")
     user_input = st.text_area("Enter a product review to analyze:", 
                             "This product exceeded my expectations!")
@@ -219,7 +214,7 @@ with tab4:
         else:
             st.error(f"Predicted Sentiment: {sentiment} {emoji}")
 
-# Show raw data if selected
+
 if show_raw_data:
     st.subheader("Raw Data")
     st.dataframe(filtered_df)
