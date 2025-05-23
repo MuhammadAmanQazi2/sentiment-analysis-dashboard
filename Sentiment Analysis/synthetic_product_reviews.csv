@@ -1,0 +1,101 @@
+Product Name,Category,Review,Rating,Sentiment,Review Date,Price
+Product 1,Toys,Very happy with the purchase.,4,Positive,2023-04-13,400.31
+Product 2,Clothing,Won’t buy again.,2,Negative,2023-09-28,368.68
+Product 3,Electronics,"Fantastic product, exceeded expectations.",4,Positive,2023-07-08,302.46
+Product 4,Sports,Top-notch quality!,5,Positive,2023-05-02,86.44
+Product 5,Beauty,"It's okay, nothing special.",3,Neutral,2023-11-27,235.03
+Product 6,Home,"Fantastic product, exceeded expectations.",5,Positive,2023-04-10,80.0
+Product 7,Electronics,Very happy with the purchase.,5,Positive,2023-05-11,20.09
+Product 8,Electronics,Won’t buy again.,2,Negative,2023-09-15,363.78
+Product 9,Electronics,Does what it says.,3,Neutral,2023-10-21,10.38
+Product 10,Toys,"Fantastic product, exceeded expectations.",5,Positive,2023-10-04,312.57
+Product 11,Clothing,Not worth the money.,2,Negative,2023-11-10,267.13
+Product 12,Toys,"Very disappointed, not as described.",2,Negative,2023-08-24,21.3
+Product 13,Clothing,"It's okay, nothing special.",3,Neutral,2023-02-28,205.93
+Product 14,Clothing,Very happy with the purchase.,4,Positive,2023-07-07,189.52
+Product 15,Electronics,Absolutely love it! Works great.,5,Positive,2023-07-09,54.4
+Product 16,Home,Top-notch quality!,5,Positive,2023-02-20,197.41
+Product 17,Toys,Great value for money.,4,Positive,2023-09-01,300.28
+Product 18,Clothing,Top-notch quality!,5,Positive,2023-05-11,431.37
+Product 19,Sports,"Fantastic product, exceeded expectations.",4,Positive,2023-05-15,93.56
+Product 20,Electronics,"Terrible product, broke in a day.",1,Negative,2023-06-16,16.5
+Product 21,Toys,Absolutely love it! Works great.,5,Positive,2023-03-30,483.16
+Product 22,Sports,Won’t buy again.,1,Negative,2023-08-30,198.85
+Product 23,Toys,Won’t buy again.,2,Negative,2023-12-12,57.86
+Product 24,Electronics,"Fantastic product, exceeded expectations.",5,Positive,2023-12-06,128.1
+Product 25,Toys,Low quality and poor support.,1,Negative,2023-09-21,26.85
+Product 26,Toys,Top-notch quality!,4,Positive,2023-07-25,201.62
+Product 27,Home,Won’t buy again.,2,Negative,2023-02-19,334.64
+Product 28,Beauty,Very happy with the purchase.,5,Positive,2023-01-02,218.33
+Product 29,Electronics,Top-notch quality!,4,Positive,2023-02-23,277.89
+Product 30,Toys,Absolutely love it! Works great.,4,Positive,2023-11-06,25.34
+Product 31,Toys,Top-notch quality!,4,Positive,2023-08-06,230.38
+Product 32,Sports,Not worth the money.,1,Negative,2023-07-21,448.47
+Product 33,Toys,Very happy with the purchase.,5,Positive,2023-09-27,366.36
+Product 34,Electronics,Absolutely love it! Works great.,5,Positive,2023-09-28,53.36
+Product 35,Sports,Does what it says.,3,Neutral,2023-08-03,265.21
+Product 36,Electronics,"Terrible product, broke in a day.",1,Negative,2023-07-09,169.41
+Product 37,Electronics,"Terrible product, broke in a day.",2,Negative,2023-07-27,376.19
+Product 38,Toys,Top-notch quality!,4,Positive,2023-02-22,297.51
+Product 39,Clothing,Not worth the money.,1,Negative,2023-08-05,147.66
+Product 40,Electronics,"Not bad, not great.",3,Neutral,2023-02-10,155.17
+Product 41,Beauty,"Terrible product, broke in a day.",1,Negative,2023-10-28,46.53
+Product 42,Beauty,"Terrible product, broke in a day.",1,Negative,2023-11-23,217.47
+Product 43,Clothing,"Average product, works fine.",3,Neutral,2023-05-09,107.37
+Product 44,Home,Absolutely love it! Works great.,5,Positive,2023-03-04,409.58
+Product 45,Electronics,Does what it says.,3,Neutral,2023-03-22,358.56
+Product 46,Clothing,Great value for money.,5,Positive,2023-10-16,306.92
+Product 47,Beauty,"Very disappointed, not as described.",1,Negative,2023-08-19,329.03
+Product 48,Beauty,Great value for money.,5,Positive,2023-01-28,432.92
+Product 49,Toys,Won’t buy again.,1,Negative,2023-11-24,230.23
+Product 50,Clothing,Absolutely love it! Works great.,4,Positive,2023-02-02,41.14
+Product 51,Electronics,Great value for money.,4,Positive,2023-03-03,169.34
+Product 52,Sports,"Fantastic product, exceeded expectations.",4,Positive,2023-04-09,299.74
+Product 53,Toys,Not worth the money.,1,Negative,2023-08-02,444.73
+Product 54,Sports,Does what it says.,3,Neutral,2023-08-15,68.6
+Product 55,Toys,Does what it says.,3,Neutral,2023-05-11,382.78
+Product 56,Clothing,"Not bad, not great.",3,Neutral,2023-08-06,125.63
+Product 57,Beauty,Very happy with the purchase.,5,Positive,2023-12-25,29.81
+Product 58,Electronics,Top-notch quality!,4,Positive,2023-07-26,219.5
+Product 59,Sports,Very happy with the purchase.,4,Positive,2023-02-11,225.27
+Product 60,Electronics,Low quality and poor support.,1,Negative,2023-06-28,25.4
+Product 61,Beauty,Low quality and poor support.,2,Negative,2023-08-19,242.93
+Product 62,Toys,"Fantastic product, exceeded expectations.",5,Positive,2023-04-06,350.8
+Product 63,Electronics,"Very disappointed, not as described.",2,Negative,2023-08-19,211.09
+Product 64,Sports,Very happy with the purchase.,4,Positive,2023-06-20,109.5
+Product 65,Sports,Absolutely love it! Works great.,4,Positive,2023-01-13,47.72
+Product 66,Home,Very happy with the purchase.,4,Positive,2023-07-06,350.44
+Product 67,Clothing,Won’t buy again.,1,Negative,2023-10-11,465.55
+Product 68,Electronics,"Fantastic product, exceeded expectations.",4,Positive,2023-02-14,154.86
+Product 69,Sports,Just okay.,3,Neutral,2023-05-14,233.7
+Product 70,Home,Absolutely love it! Works great.,5,Positive,2023-04-18,101.42
+Product 71,Toys,Absolutely love it! Works great.,5,Positive,2023-10-13,442.81
+Product 72,Sports,"Very disappointed, not as described.",1,Negative,2023-05-08,405.65
+Product 73,Beauty,Very happy with the purchase.,5,Positive,2023-12-14,184.59
+Product 74,Home,Absolutely love it! Works great.,5,Positive,2023-07-09,63.93
+Product 75,Beauty,Great value for money.,5,Positive,2023-10-10,219.28
+Product 76,Clothing,"Fantastic product, exceeded expectations.",5,Positive,2023-04-26,182.76
+Product 77,Home,Low quality and poor support.,2,Negative,2023-09-16,13.41
+Product 78,Toys,Won’t buy again.,1,Negative,2023-05-17,247.57
+Product 79,Electronics,Low quality and poor support.,2,Negative,2023-08-13,68.73
+Product 80,Electronics,Great value for money.,5,Positive,2023-06-21,129.62
+Product 81,Beauty,Does what it says.,3,Neutral,2023-11-11,168.37
+Product 82,Sports,Absolutely love it! Works great.,5,Positive,2023-04-06,283.47
+Product 83,Sports,Won’t buy again.,2,Negative,2023-06-29,188.18
+Product 84,Beauty,Very happy with the purchase.,5,Positive,2023-02-21,130.97
+Product 85,Toys,Won’t buy again.,2,Negative,2023-10-22,253.65
+Product 86,Home,Very happy with the purchase.,4,Positive,2023-04-23,82.56
+Product 87,Beauty,Just okay.,3,Neutral,2023-03-22,140.72
+Product 88,Beauty,"It's okay, nothing special.",3,Neutral,2023-01-02,256.31
+Product 89,Clothing,Top-notch quality!,5,Positive,2023-02-23,26.19
+Product 90,Beauty,"Fantastic product, exceeded expectations.",5,Positive,2023-08-12,455.05
+Product 91,Toys,Top-notch quality!,5,Positive,2023-05-06,81.0
+Product 92,Clothing,"Average product, works fine.",3,Neutral,2023-06-21,229.41
+Product 93,Electronics,Great value for money.,4,Positive,2023-07-17,128.61
+Product 94,Beauty,Won’t buy again.,2,Negative,2023-11-20,49.62
+Product 95,Beauty,"Fantastic product, exceeded expectations.",4,Positive,2023-07-03,126.44
+Product 96,Beauty,Top-notch quality!,5,Positive,2023-09-12,403.54
+Product 97,Sports,Absolutely love it! Works great.,5,Positive,2023-11-21,319.83
+Product 98,Beauty,Does what it says.,3,Neutral,2023-07-17,205.42
+Product 99,Sports,Won’t buy again.,2,Negative,2023-08-28,401.19
+Product 100,Clothing,Not worth the money.,2,Negative,2023-07-20,167.18
